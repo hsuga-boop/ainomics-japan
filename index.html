@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="tiktok-developers-site-verification" content="M9mWxUIWVwj1w5eygO3ureA99Y9HzESJ" />
   <title>AInomics Japan</title>
-  <meta name="description" content="AInomics Japanは、金融・経済コンテンツクリエイター向けに、AIを活用した動画生成・自動配信を支援するプラットフォームです。TikTokおよびYouTubeへの動画配信を自動化します。" />
+  <meta name="description" content="AInomics Japanは、個人が運営する経済・金融ニュース解説のYouTubeチャンネルです。台本生成からYouTubeへの投稿までを自動化する自作ツールで運用しています。" />
   <style>
     * { box-sizing: border-box; }
     body { font-family: -apple-system, "Hiragino Sans", sans-serif; margin: 0; color: #222; line-height: 1.7; background: #fff; }
@@ -58,55 +58,43 @@
 
   <section class="hero">
     <h1>AInomics Japan</h1>
-    <p class="tagline">金融・経済コンテンツクリエイター向けの、AIによる動画生成・自動配信プラットフォームです。TikTokおよびYouTubeへの継続的な動画配信を支援します。</p>
+    <p class="tagline">個人が運営する経済・金融ニュース解説のYouTubeチャンネルです。台本生成からYouTubeへの投稿までを、運営者本人が開発した自動化ツールで行っています。</p>
   </section>
 
   <section id="about">
-    <h2>サービスについて</h2>
+    <h2>このサイトについて</h2>
     <p>
-      AInomics Japanは、金融・経済分野のコンテンツクリエイターを対象に、AIを活用した動画コンテンツの
-      自動生成・配信プラットフォームを提供するサービスです。登録クリエイターのTikTokおよびYouTube
-      チャンネルに対して、最新の市場ニュースや経済解説を短尺動画として継続配信します。
+      AInomics Japanは、運営者個人が単独で運営するYouTubeチャンネル「AInomics Japan」のための公式サイトです。
+      多数のクリエイターが利用する外部向けサービスやプラットフォームではありません。
+      運営者自身が開発した自動化ツールを使い、運営者自身のYouTubeチャンネル1つに対してのみ動画を生成・投稿しています。
     </p>
     <div class="grid">
       <div class="card"><h3>市況ニュース解説</h3><p>米国・日本の株式市場の動きを、経済的な背景とともに解説</p></div>
-      <div class="card"><h3>企業スポットライト</h3><p>注目スタートアップを資金調達・技術内容とともに紹介</p></div>
-      <div class="card"><h3>モーニングブリーフ</h3><p>前日の市場終値・主要指標をまとめた朝の解説動画</p></div>
-      <div class="card"><h3>AI×経済</h3><p>AIが経済・産業に与える影響をテーマにした解説コンテンツ</p></div>
+      <div class="card"><h3>制度・仕組みの解説</h3><p>税制・社会保障・金融制度などを生活に結びつけて解説</p></div>
+      <div class="card"><h3>朝・スイング・夕方の定期配信</h3><p>1日3本の短尺解説動画を定時投稿</p></div>
+      <div class="card"><h3>週次の長尺解説</h3><p>制度や仕組みを10〜14分でじっくり深掘り</p></div>
     </div>
     <p class="disclaimer">すべてのコンテンツは情報提供・教育目的であり、投資助言には該当しません。投資判断はご自身の責任において行ってください。</p>
   </section>
 
   <section id="how">
-    <h2>サービスの仕組み</h2>
-    <p>クリエイターがサービスに登録すると、以下のプロセスで動画が自動生成・配信されます。</p>
+    <h2>運用の仕組み</h2>
+    <p>運営者本人が開発したツールにより、以下のプロセスで自分のチャンネル向けに動画が自動生成・投稿されます。</p>
     <div class="steps">
-      <div class="step"><div class="num">1</div><div>クリエイターがサービスに登録し、配信チャンネル（TikTok / YouTube）を連携します。</div></div>
-      <div class="step"><div class="num">2</div><div>公開されているニュース・市場データを収集し、クリエイターのチャンネルに最適なテーマを選定します。</div></div>
-      <div class="step"><div class="num">3</div><div>日本語の解説台本を生成し、事実確認・表現チェックを経て音声・字幕付きの動画を生成します。</div></div>
-      <div class="step"><div class="num">4</div><div>YouTube Data API および TikTok Content Posting API を通じて、クリエイターのチャンネルに動画を配信します。</div></div>
+      <div class="step"><div class="num">1</div><div>公開されているニュース・市場データを収集し、テーマを選定します。</div></div>
+      <div class="step"><div class="num">2</div><div>日本語の解説台本を生成し、事実確認・表現チェックを経て音声・字幕付きの動画を生成します。</div></div>
+      <div class="step"><div class="num">3</div><div>YouTube Data API を通じて、運営者本人のYouTubeチャンネルへ動画を投稿します。</div></div>
     </div>
-  </section>
-
-  <section id="creators">
-    <h2>クリエイター登録</h2>
-    <p>
-      AInomics Japanは、金融・経済コンテンツの発信を目指す日本語クリエイターを対象に、サービス利用登録を受け付けています。
-      登録いただいたクリエイターには、AIが生成した動画コンテンツをTikTokおよびYouTubeへ自動配信します。
-    </p>
-    <p>利用登録・お問い合わせは下記メールアドレスまでご連絡ください。</p>
-    <p><a href="mailto:hsugawara19730425@gmail.com">hsugawara19730425@gmail.com</a></p>
   </section>
 
   <section class="platforms">
     <h2>配信プラットフォーム</h2>
-    <a href="https://www.youtube.com/@ainomicsjapan" target="_blank">YouTube で見る</a>
-    <a href="https://www.tiktok.com/@ainomicsjapan" target="_blank">TikTok で見る</a>
+    <a href="https://www.youtube.com/@AInomicsJapan" target="_blank">YouTube で見る</a>
   </section>
 
   <section id="contact">
     <h2>お問い合わせ</h2>
-    <p>サービスに関するご質問・クリエイター登録のお申し込みは、以下のメールアドレスまでご連絡ください。</p>
+    <p>このサイトやチャンネルに関するご質問は、以下のメールアドレスまでご連絡ください。</p>
     <p><a href="mailto:hsugawara19730425@gmail.com">hsugawara19730425@gmail.com</a></p>
   </section>
 
@@ -117,7 +105,7 @@
     <a href="./privacy_policy.html">プライバシーポリシー</a>
     <a href="./terms.html">利用規約</a>
   </div>
-  <div>最終更新日: 2026年7月2日</div>
+  <div>最終更新日: 2026年9月16日</div>
 </footer>
 
 </body>
